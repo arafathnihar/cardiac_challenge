@@ -1,0 +1,14 @@
+name: dsc
+dependencies:
+  - python=3.10.12
+  - pip
+  - pip:
+    - jupyterlab
+    - pandas
+    - numpy
+    - matplotlib
+    - torch --index-url https://download.pytorch.org/whl/cpu
+    - torchvision  --index-url https://download.pytorch.org/whl/cpu
+    - torchaudio --index-url https://download.pytorch.org/whl/cpu
+    - pyts
+    - scikit-learn
